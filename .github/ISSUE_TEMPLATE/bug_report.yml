@@ -1,0 +1,26 @@
+name: Bug report
+description: 报告官网问题
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 问题描述
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: 浏览器 / 设备
+      placeholder: Safari 18 / iPhone 15
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图
+      description: 请移除个人信息。
